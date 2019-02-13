@@ -1,0 +1,30 @@
+Writeup for second ABM coursework
+
+SS1 default parameters:
+Pop = 400
+starting sugar random-in-range 5 25
+metabolism random-in-range 1 4
+vision random-in-range 1 6
+
+SS2
+default parameters for turtles are the same
+
+
+Initial Observations
+
+average vision increases initially as low vision turtles die off
+average metabolism decreases gradually to start
+Population reaches a steady state
+This state state increases in proportion to the intial number of turtles because
+	 a higher initial population raises the probability of turtles finding highly productive patches.
+
+
+
+
+Reporters necessary
+		  average suger for each turtle
+		  average metabolism for each turtle
+		  average metabolism to patch sugar ratio
+		  average vision
+		  
+
